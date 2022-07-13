@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>hw1.1</title>
+        <style>
+            .personalNum{
+                width: 130px;
+                height: 23px;
+                border: 1px black solid;
+                border-radius: 5px;
+            }
+            .innCheck{
+                height: 27px;
+                border: 1px black solid;
+                border-radius: 5px;
+            }
+            .innCheck:hover{
+                cursor: pointer;
+                background: limegreen;
+            }
+            p {
+                font-size: 15px;
+                color: red;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <p>*Чтобы пройти верификацию, надо ввести персональный номер(ИНН)</p>
+            <input class='personalNum' type="text" placeholder="03476123008203">
+            <button class="innCheck">Проверить</button>
+            <div class="innPrint"></div>
+        </div>
+    </body>
+    <script src="homework1.1.js"></script>
+</html>
